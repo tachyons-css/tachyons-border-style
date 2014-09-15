@@ -13,6 +13,50 @@
   <body>
     <h1>tachyons border style</h1>
     <h2>Examples</h2>
+
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
+    <pre>
+<code>
+/*
+
+   BORDER STYLES
+
+ */
+
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
+
+@include break(not-small) {
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
+}
+
+@include break(medium) {
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
+}
+
+@include break(large) {
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
+}
+</code>
+</pre>
     <a href="http://npmjs.org/package/tachyons-border-style" title="tachyons-border-style">View package on npm</a>
   </body>
 </html>
