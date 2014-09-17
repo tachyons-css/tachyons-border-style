@@ -8,6 +8,38 @@ npm install --save-dev tachyons-border-style
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   BORDER STYLES
+
+ */
+
+.bs-none {   border-style: none; }
+.bs-dotted { border-style: dotted; }
+.bs-solid {  border-style: solid; }
+
+@include break(not-small) {
+  .bs-none-ns {   border-style: none; }
+  .bs-dotted-ns { border-style: dotted; }
+  .bs-solid-ns {  border-style: solid; }
+}
+
+@include break(medium) {
+  .bs-none-m {   border-style: none; }
+  .bs-dotted-m { border-style: dotted; }
+  .bs-solid-m {  border-style: solid; }
+}
+
+@include break(large) {
+  .bs-none-l {   border-style: none; }
+  .bs-dotted-l { border-style: dotted; }
+  .bs-solid-l {  border-style: solid; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
