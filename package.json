@@ -1,6 +1,6 @@
 {
   "name": "tachyons-border-style",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "style": "border_style.css",
   "homepage": "http://mrmrs.io/tachyons-border-style",
   "description": "Performance based sass module.",
