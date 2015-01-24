@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -10,19 +12,19 @@
 .bs-dotted { border-style: dotted; }
 .bs-solid {  border-style: solid; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .bs-none-ns {   border-style: none; }
   .bs-dotted-ns { border-style: dotted; }
   .bs-solid-ns {  border-style: solid; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .bs-none-m {   border-style: none; }
   .bs-dotted-m { border-style: dotted; }
   .bs-solid-m {  border-style: solid; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .bs-none-l {   border-style: none; }
   .bs-dotted-l { border-style: dotted; }
   .bs-solid-l {  border-style: solid; }
