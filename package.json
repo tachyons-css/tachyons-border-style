@@ -1,6 +1,6 @@
 {
   "name": "tachyons-border-style",
-  "version": "0.2.3",
+  "version": "1.0.0",
   "style": "tachyons-border-style.css",
   "homepage": "http://mrmrs.io/tachyons-border-style",
   "description": "Performance based css module.",
