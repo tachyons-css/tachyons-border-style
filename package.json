@@ -1,12 +1,12 @@
 {
   "name": "tachyons-border-style",
   "version": "0.2.3",
-  "style": "border_style.css",
+  "style": "tachyons-border-style.css",
   "homepage": "http://mrmrs.io/tachyons-border-style",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
