@@ -2,6 +2,19 @@
 
    BORDER STYLES
 
+   Base:
+     bs = border-style
+
+   Modifiers:
+     none   = none
+     dotted = dotted
+     solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
  */
 
 .bs-none {
@@ -16,7 +29,7 @@
   border-style: solid;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .bs-none-ns {
     border-style: none;
   }
