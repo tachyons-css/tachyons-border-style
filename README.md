@@ -1,21 +1,37 @@
-# TACHYONS-BORDER-STYLE
+# tachyons-border-style
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-border-style
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-border-style
+```
 
 ## The Code
 ```
-
 /*
 
    BORDER STYLES
+
+   Base:
+     bs = border-style
+
+   Modifiers:
+     none   = none
+     dotted = dotted
+     solid  = solid
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
 
  */
 
@@ -23,23 +39,24 @@ or download the css on github and include in your project.
 .bs-dotted { border-style: dotted; }
 .bs-solid {  border-style: solid; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .bs-none-ns {   border-style: none; }
   .bs-dotted-ns { border-style: dotted; }
   .bs-solid-ns {  border-style: solid; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .bs-none-m {   border-style: none; }
   .bs-dotted-m { border-style: dotted; }
   .bs-solid-m {  border-style: solid; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .bs-none-l {   border-style: none; }
   .bs-dotted-l { border-style: dotted; }
   .bs-solid-l {  border-style: solid; }
 }
+
 ```
 
 ## Author
