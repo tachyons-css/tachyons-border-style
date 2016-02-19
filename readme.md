@@ -1,10 +1,10 @@
-# tachyons-border-style 2.0.0
+# tachyons-border-style 2.0.1
 
 Border style CSS module for Tachyons
 
 #### Stats
 
-297 | 16 | 16
+298 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,27 +75,27 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      -l  = large
 
  */
-.bs-none { border-style: none; }
-.bs-dotted { border-style: dotted; }
-.bs-dashed { border-style: dashed; }
-.bs-solid { border-style: solid; }
+.b--none { border-style: none; }
+.b--dotted { border-style: dotted; }
+.b--dashed { border-style: dashed; }
+.b--solid { border-style: solid; }
 @media screen and (min-width: 48em) {
- .bs-none-ns { border-style: none; }
- .bs-dotted-ns { border-style: dotted; }
- .bs-dashed-ns { border-style: dashed; }
- .bs-solid-ns { border-style: solid; }
+ .b--none-ns { border-style: none; }
+ .b--dotted-ns { border-style: dotted; }
+ .b--dashed-ns { border-style: dashed; }
+ .b--solid-ns { border-style: solid; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
- .bs-none-m { border-style: none; }
- .bs-dotted-m { border-style: dotted; }
- .bs-dashed-m { border-style: dashed; }
- .bs-solid-m { border-style: solid; }
+ .b--none-m { border-style: none; }
+ .b--dotted-m { border-style: dotted; }
+ .b--dashed-m { border-style: dashed; }
+ .b--solid-m { border-style: solid; }
 }
 @media screen and (min-width: 64em) {
- .bs-none-l { border-style: none; }
- .bs-dotted-l { border-style: dotted; }
- .bs-dashed-l { border-style: dashed; }
- .bs-solid-l { border-style: solid; }
+ .b--none-l { border-style: none; }
+ .b--dotted-l { border-style: dotted; }
+ .b--dashed-l { border-style: dashed; }
+ .b--solid-l { border-style: solid; }
 }
 ```
 
