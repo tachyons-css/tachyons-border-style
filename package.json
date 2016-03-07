@@ -22,7 +22,9 @@
   ],
   "repository": "tachyons-css/tachyons-border-style",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "tachyons-cli": "^0.5.0"
+  },
   "scripts": {
     "start": "tachyons src/tachyons-border-style.css > css/tachyons-border-style.css && tachyons src/tachyons-border-style.css --minify > css/tachyons-border-style.min.css && tachyons src/tachyons-border-style.css --generate-docs --package=../../package.json > readme.md"
   },
