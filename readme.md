@@ -1,4 +1,4 @@
-# tachyons-border-style 2.0.1
+# tachyons-border-style 3.0.2
 
 Border style CSS module for Tachyons
 
