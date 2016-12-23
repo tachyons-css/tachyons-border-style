@@ -79,7 +79,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    BORDER STYLES
 
    Base:
-     bs = border-style
+     b = border-style
 
    Modifiers:
      none   = none
